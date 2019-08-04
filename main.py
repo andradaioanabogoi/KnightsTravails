@@ -88,10 +88,10 @@ def knight_moves(start_coordinates, end_coordinates):
 
 def print_path(path_stack, start_coordinates, end_coordinates):
     if(len(path_stack) == 1):
-        print(("It took " + str((len(path_stack)-1)) +
+        print(("\nIt took " + str((len(path_stack)-1)) +
                " moves to traverse from " + start_coordinates + " to " + end_coordinates))
     else:
-        print("It took " + str((len(path_stack)-1)) +
+        print("\nIt took " + str((len(path_stack)-1)) +
               " moves to traverse from " + start_coordinates + " to " + end_coordinates + ". There's the path:")
         path_stack.pop()
         while(True):
