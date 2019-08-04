@@ -4,7 +4,11 @@
 
 ```
 $ python main.py --start=<start_position> --end=<end_position>
+```
 
+#### Example:
+
+```
 $ python main.py --start=C3 --end=D3
 
 It took 3 moves to traverse from C3 to D3. The path is:
@@ -17,5 +21,4 @@ D3
 
 ```
 python test.py
-
 ```
